@@ -1,4 +1,6 @@
 # Framework for benchmarking LLMs on [TimeAware dataset](https://huggingface.co/datasets/hereldav/TimeAware)
+[TimeAware Paper (preprint)](https://arxiv.org/abs/2409.13338)
+
 
 ## Overview
 
@@ -47,7 +49,7 @@ python main.py --output_file <path to results file>
 
 ## Results
 
-| Model                                      | Top-1 Acc | Top-3 Acc | Top-5 Acc | Stability |
+| Model                                      | Top-1 Acc [%] | Top-3 Acc [%] | Top-5 Acc [%] | Stability [%] |
 |--------------------------------------------|-----------|-----------|-----------|-----------|
 | microsoft/phi-2                            | 4.7       | 14.78     | 28.26     | 58.8      |
 | google/gemma-2-2b-it                       | 5.65      | 14.7      | 23.39     | 54.23     |
@@ -63,7 +65,7 @@ python main.py --output_file <path to results file>
 | google/gemma-2-9b                          | 19.22     | 42.0      | 53.3      | 64.82     |
 | google/gemma-2-27b                         | 30.96     | 55.74     | 67.91     | 63.13     |
 | meta-llama/Meta-Llama-3.1-70B-Instruct     | 34.61     | 58.09     | 70.26     | 65.95     |
-| meta-llama/Meta-Llama-3.1-70B              | 39.74     | 66.52     | 75.39     | 65.97     |
+| **meta-llama/Meta-Llama-3.1-70B**              | **39.74**     | **66.52**     | **75.39**     | **65.97**     |
 
 
 ## Citation
